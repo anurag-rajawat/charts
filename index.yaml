@@ -3,9 +3,9 @@ entries:
   nimbus:
   - apiVersion: v2
     appVersion: 0.1.1
-    created: "2024-05-27T14:56:39.347722722Z"
+    created: "2024-05-27T15:43:44.792477819Z"
     description: A Helm chart for Nimbus
-    digest: 59729b58a85ecaaac86d9f8e4ed5f5330739568c446c7ceee42f4914ea956737
+    digest: d4bafaf99ada584f66924f235c46f8b83c34469cb84f39bf70f711d701d86931
     name: nimbus
     type: application
     urls:
@@ -24,9 +24,9 @@ entries:
   nimbus-kubearmor:
   - apiVersion: v2
     appVersion: 0.1.2
-    created: "2024-05-27T14:56:39.347987821Z"
+    created: "2024-05-27T15:43:44.792747414Z"
     description: A Helm chart for KubeArmor Security Engine as an adapter for Nimbus.
-    digest: cd53ea97f0dbeb68c0f3fcd1b517c576b26d8e8311e6dd6f7b3063bbe24287e5
+    digest: 6fa06b5bb12ab38e8fad88197f94287a06d46c47008dc51fcdbb42b12e18bc47
     name: nimbus-kubearmor
     type: application
     urls:
@@ -55,9 +55,9 @@ entries:
   nimbus-kyverno:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2024-05-27T14:56:39.348245876Z"
+    created: "2024-05-27T15:43:44.792990801Z"
     description: A Helm chart for Kubernetes
-    digest: e500b1d7112545b43c49a3396b1afb983ea012ac1964a1847634b8d4060582f2
+    digest: 1f63186679a464a02b59784753137e3a4b00fab5e85b94e233ee6c9fac829d6c
     name: nimbus-kyverno
     type: application
     urls:
@@ -66,9 +66,9 @@ entries:
   nimbus-netpol:
   - apiVersion: v2
     appVersion: 0.1.2
-    created: "2024-05-27T14:56:39.348485557Z"
+    created: "2024-05-27T15:43:44.793227305Z"
     description: A Helm chart for Kubernetes NetworkPolicy as an adapter for Nimbus.
-    digest: 62a96e80cabb5d368d0c4effaddd95b2b5bbeb58c9e1e0e071173097ed3eb167
+    digest: dfda43e41bc1f2e6884b926f02a44a2525d45b3cac93c26dd08bc1183f485bb2
     name: nimbus-netpol
     type: application
     urls:
@@ -94,4 +94,4 @@ entries:
     urls:
     - https://5gsec.github.io/charts/nimbus-netpol-0.1.0.tgz
     version: 0.1.0
-generated: "2024-05-27T14:56:39.347207454Z"
+generated: "2024-05-27T15:43:44.791980346Z"
