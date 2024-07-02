@@ -3,7 +3,7 @@ entries:
   nimbus:
   - apiVersion: v2
     appVersion: 0.1.1
-    created: "2024-07-02T10:33:51.960217032Z"
+    created: "2024-07-02T11:04:12.926109026Z"
     dependencies:
     - condition: autoDeploy.kubearmor
       name: nimbus-kubearmor
@@ -18,7 +18,7 @@ entries:
       repository: https://5gsec.github.io/charts
       version: '>= 0.1.0'
     description: A Helm chart for Nimbus operator.
-    digest: 7ab8502d4894ca14f00bc13d38d30a70113cbde3e9aea02a9ab8e490e5863034
+    digest: 83c020a0140f186032265b2de492bad8c91cae4b546591894069a5a6d89221b7
     kubeVersion: '>= 1.25'
     name: nimbus
     type: application
@@ -48,9 +48,9 @@ entries:
   nimbus-k8tls:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2024-07-02T10:33:51.960478491Z"
+    created: "2024-07-02T11:04:12.926382258Z"
     description: Nimbus adapter for k8tls
-    digest: 735dfc09d64138dd3cf0248b396740383ce91839223cc16650306888051c7559
+    digest: 81e1abeb83400f08d30abffca7f597c3d7266b17e2175a7847418d688d1e6a87
     kubeVersion: '>=1.25.0-0'
     name: nimbus-k8tls
     sources:
@@ -62,14 +62,14 @@ entries:
   nimbus-kubearmor:
   - apiVersion: v2
     appVersion: 0.1.2
-    created: "2024-07-02T10:33:51.961091427Z"
+    created: "2024-07-02T11:04:12.927000426Z"
     dependencies:
     - condition: autoDeploy
       name: kubearmor-operator
       repository: https://kubearmor.github.io/charts
       version: '>= 1.3.4'
     description: KubeArmor adapter's chart for Nimbus.
-    digest: 6cc421fa158d1c7fc6b08baa2b2d58f545c95a50971f398b24afa5ff9d9afced
+    digest: a2337a7bab9b4a4041e46d3aa2c4eb4c0bc3f3b8660d022909c0d72ce05aa6d7
     kubeVersion: '>= 1.25'
     name: nimbus-kubearmor
     type: application
@@ -109,14 +109,14 @@ entries:
   nimbus-kyverno:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2024-07-02T10:33:51.976390933Z"
+    created: "2024-07-02T11:04:12.942388054Z"
     dependencies:
     - condition: autoDeploy
       name: kyverno
       repository: https://kyverno.github.io/kyverno/
       version: '>= 3.2.0'
     description: Kyverno adapter's chart for Nimbus.
-    digest: 877604799eca9733d224a52353161d722bba6a3c47f3f651064a66f61ad32abf
+    digest: 8c8afd36a3e41c5a74feed4f6ce6108516d41bc901798292b4f68fd923aa4828
     kubeVersion: '>= 1.25'
     name: nimbus-kyverno
     type: application
@@ -136,9 +136,9 @@ entries:
   nimbus-netpol:
   - apiVersion: v2
     appVersion: 0.1.2
-    created: "2024-07-02T10:33:51.976659004Z"
+    created: "2024-07-02T11:04:12.942652359Z"
     description: A Helm chart for Kubernetes NetworkPolicy as an adapter for Nimbus.
-    digest: 6cb949ea56a8412521a5b964a1345fe19f190dde6bfda676f4d3a9936b714259
+    digest: 835f1969e3ae0b0c1b784340e5b0b928d7e9151f1f9516925ca346404a0fef02
     name: nimbus-netpol
     type: application
     urls:
@@ -164,4 +164,4 @@ entries:
     urls:
     - https://5gsec.github.io/charts/nimbus-netpol-0.1.0.tgz
     version: 0.1.0
-generated: "2024-07-02T10:33:51.94473087Z"
+generated: "2024-07-02T11:04:12.909742922Z"
